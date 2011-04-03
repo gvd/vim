@@ -29,6 +29,7 @@ set makeprg=make\ -j4
 set hlsearch "use * command!
 set incsearch
 set switchbuf=usetab,newtab " when errors during make => look in existing tabs otherwise open a new tab
+set laststatus=2 " Always show the status line
 
 " omnicppcomplete
 set nocp
