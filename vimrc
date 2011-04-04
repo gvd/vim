@@ -10,7 +10,9 @@ endif
 " set autochdir
 let moria_fontface='mixed'
 let moria_style='dark'
-colorscheme molokai
+set background=dark
+colorscheme solarized
+" colorscheme molokai
 " colorscheme moria
 set number
 set tabstop=4
@@ -31,8 +33,6 @@ set incsearch
 set switchbuf=usetab,newtab " when errors during make => look in existing tabs otherwise open a new tab
 set laststatus=2 " Always show the status line
 
-" omnicppcomplete
-set nocp
 filetype plugin on
 map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
